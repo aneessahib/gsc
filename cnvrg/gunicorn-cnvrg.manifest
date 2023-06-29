@@ -1,0 +1,8 @@
+sgx.enclave_size = "8G"
+sgx.nonpie_binary = true
+sgx.max_threads = 64
+sgx.file_check_policy = "allow_all_but_log"
+
+fs.mounts = [ { path = "/etc", uri = "file:/etc" },
+  { type = "tmpfs", path = "/tmp" },
+]

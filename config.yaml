@@ -9,8 +9,8 @@ Distro: "ubuntu:20.04"
 # If you're using your own fork and branch of Gramine, specify the GitHub link and the branch name
 # below; typically, you want to keep the default values though
 Gramine:
-    Repository: "https://github.com/aneessahib/gramine.git" #"https://github.com/gramineproject/gramine.git"
-    Branch:     "gunicorn_testing" 
+    Repository: "https://github.com/gramineproject/gramine.git" #https://github.com/aneessahib/gramine.git"
+    Branch:     "master" 
     #"nonelf_entrypoint"
 
 #"https://github.com/gramineproject/gramine.git"

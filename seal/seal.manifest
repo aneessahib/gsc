@@ -1,0 +1,6 @@
+sgx.enclave_size = "4G"
+fs.mounts = [
+{ type = "encrypted", path = "/files/tmp_enc", uri = "file:/files/tmp_enc", key_name = "_sgx_mrsigner" },
+]
+#loader.insecure__use_cmdline_argv = true
+sgx.file_check_policy="allow_all_but_log"

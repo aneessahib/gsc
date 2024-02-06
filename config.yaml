@@ -4,7 +4,7 @@
 #Distro: "debian:11"
 #Distro: "centos:8"
 #Distro: "debian:11"
-Distro: "ubuntu:20.04"
+Distro: "ubuntu:22.04"
 
 # If you're using your own fork and branch of Gramine, specify the GitHub link and the branch name
 # below; typically, you want to keep the default values though
